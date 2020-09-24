@@ -1,0 +1,18 @@
+footer {
+    background-color: #343A40;
+    color: whitesmoke;
+    font-size: 1.2em;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+#footer-container {
+    padding: 1em;
+}
+#footer-container h1{
+    font-size: 2em;
+}
+#footer-container p {
+    padding: 0.4em;
+}

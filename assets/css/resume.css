@@ -1,0 +1,317 @@
+#second_div {
+    /* Photo by Dominika Roseclay from Pexels */
+    background-image: url(../../assets/img/wood.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#profil-pic {
+    border-radius: 50%;
+}
+#resume-bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#resume-name, #resume-job {
+    font-size: 3em;
+}
+#resume-job {
+    padding-bottom: 1em;
+}
+#resume-text {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 1em;
+    border: 1em solid ghostwhite;
+    border-radius: 0.6em;
+    width: 80%;
+    margin-bottom: 2vh;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1920px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}
+
+@media screen and (max-width: 1536px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}
+
+@media screen and (max-width: 414px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #second_div {
+        display: block;
+        text-align: center;
+    }
+    #resume-bio {
+        display: block;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+    }
+    #second_div h1 {
+        font-size: 2em;
+    }
+    #resume-title {
+        padding-top: 20px;
+    }
+    #skills-title {
+        padding: 20px;
+    }
+    #resume-text h1 {
+        font-size: 2em;
+    }
+    #profil-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #profil-div {
+        display: flex;
+        justify-content: center;
+        padding: 2vh;
+    }
+}

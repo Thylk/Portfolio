@@ -25,110 +25,108 @@
     </div>
 
     <div id="second_div">
-
+        <h1 id="resume-title">Resume</h1>
+        <div id="profil-div">
+            <img id="profil-pic" src="assets/img/photo-max.jpg" alt="Photo de profil" width="300" height="300">
+        </div>
         <div id="resume">
-            <h1 id="resume-name">Maxime Regnault</h1>
-            <h1 id="resume-job">Web Developer / Java Developer</h1>
-            <div id="resume-bio">
-                <img id="profil-pic" src="assets/img/photo-max.jpg" alt="Photo de profil" width="300" height="300">
-                <div id="resume-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestias cupiditate natus nostrum fugiat consequatur tempore rerum illum aliquam autem perferendis fuga, voluptas voluptatum voluptatem! Officia odio perspiciatis modi at!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, laboriosam accusamus optio repellendus dicta eligendi velit voluptatibus ratione. Blanditiis enim voluptas molestiae veritatis quasi commodi optio inventore quas eveniet corporis?</p>
-                </div>
+            <div id="resume-text">
+                <h1 id="resume-name">Maxime Regnault</h1>
+                <h1 id="resume-job">Web Developer / Java Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestias cupiditate natus nostrum fugiat consequatur tempore rerum illum aliquam autem perferendis fuga, voluptas voluptatum voluptatem! Officia odio perspiciatis modi at!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, laboriosam accusamus optio repellendus dicta eligendi velit voluptatibus ratione. Blanditiis enim voluptas molestiae veritatis quasi commodi optio inventore quas eveniet corporis?</p>
             </div>
         </div>
-        
+        <h1 id="skills-title">Skills</h1>
     </div>
-
-    <div id="third_div">
 
         <div id="skills">
             <!-- <h1>Skills</h1> -->
             <div class="skills-container" id="skill-html">
-                <img id="html-pic" src="assets/img/html.png" alt="html picture" width="300" height="300">
+                <img class="img-pic" src="assets/img/html.png" alt="html picture" width="300" height="300">
             </div>
 
             <div class="skills-container" id="skill-css">
-                <img id="css-pic" src="assets/img/css.png" alt="html picture" height="300">
+                <img class="img-pic" src="assets/img/css.png" alt="html picture" height="300">
             </div>
 
             <div class="skills-container" id="skill-javascript">
-                <img id="javascript-pic" src="assets/img/javass.png" alt="html picture" width="300">
+                <img class="img-pic" src="assets/img/javass.png" alt="html picture" width="300">
             </div>
 
             <div class="skills-container" id="skill-php">
-                <img id="javascript-pic" src="assets/img/php.png" alt="html picture" width="300">
+                <img class="img-pic" src="assets/img/php.png" alt="html picture" width="300">
             </div>
 
             <div class="skills-container" id="skill-java">
-            <img id="javascript-pic" src="assets/img/java.png" alt="html picture" height="300">
+                <img class="img-pic" src="assets/img/java.png" alt="html picture" height="300">
             </div>
-        </div>
 
-        <div id="skills-second">
             <div class="skills-container" id="skill-sql">
-                <img id="html-pic" src="assets/img/mysql.png" alt="html picture" width="300">
+                <img class="img-pic" src="assets/img/mysql.png" alt="html picture" width="300">
             </div>
 
             <div class="skills-container" id="skill-jquery">
-                <img src="assets/img/jqueryt.png" alt="html picture" height="300">
+                <img class="img-pic" src="assets/img/jqueryt.png" alt="html picture" height="300">
             </div>
 
             <div class="skills-container" id="skill-android">
-                <img src="assets/img/android.png" alt="html picture" width="300">
+                <img class="img-pic" src="assets/img/android.png" alt="html picture" width="300">
             </div>
 
             <div class="skills-container" id="skill-git">
-                <img src="assets/img/git.png" alt="html picture" width="300">
+                <img class="img-pic" src="assets/img/git.png" alt="html picture" width="300">
             </div>
 
             <div class="skills-container" id="skill-github">
-            <img src="assets/img/githubo.png" alt="html picture" width="300">
+                <img class="img-pic" src="assets/img/githubo.png" alt="html picture" width="300">
             </div>
+
         </div>
-    </div>
 
     <div id="fourth_div">
+        <h1 id="projects-title">Projects</h1>
+        <!-- <div id="fourth-container"> -->
+            
+            <div id="card-container">
+                <div class="card-project">
+                    <div class="card-text">
+                        <i class="fas fa-globe"></i>
+                        <h1>Atelier à façon</h1>
+                        <p>E-boutique d'une auto-entreprise de couture sur mesure.</p>
+                        <button>Lien GitHub</button>
+                    </div>
+                </div>
 
-        <!-- <div class="index_title">
-            <h1>Projects</h1>
-        </div> -->
+                <div class="card-project">
+                    <div class="card-text">
+                        <i class="fas fa-globe"></i>
+                        <h1>Portfolio</h1>
+                        <p>Projet de portfolio personnel sur lequel vous vous trouvez actuellement.</p>
+                        <button>Lien GitHub</button>
+                    </div>
+                </div>
+
+                <div class="card-project">
+                    <div class="card-text">
+                        <i class="fas fa-desktop"></i>
+                        <h1>Projet MVC</h1>
+                        <p>Projet Java J2E d'une application d'entreprise, en architecture MVC</p>
+                        <button>Lien GitHub</button>
+                    </div>
+                </div>
+
+                <div class="card-project">
+                    <div class="card-text">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h1>App Android Calculatrice</h1>
+                        <p>Application Android de calculatrice réalisée avec AndroidStudio et Java</p>
+                        <button>Lien GitHub</button>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
         
-        <div id="card-project">
-            <div class="card-text">
-                <i class="fas fa-globe"></i>
-                <h1>Atelier à façon</h1>
-                <p>E-boutique d'une auto-entreprise de couture sur mesure.</p>
-                <button>Lien GitHub</button>
-            </div>
-        </div>
-
-        <div id="card-project">
-            <div class="card-text">
-                <i class="fas fa-globe"></i>
-                <h1>Portfolio</h1>
-                <p>Projet de portfolio personnel sur lequel vous vous trouvez actuellement.</p>
-                <button>Lien GitHub</button>
-            </div>
-        </div>
-
-        <div id="card-project">
-            <div class="card-text">
-                <i class="fas fa-desktop"></i>
-                <h1>Projet MVC</h1>
-                <p>Projet Java J2E d'une application d'entreprise, en architecture MVC</p>
-                <button>Lien GitHub</button>
-            </div>
-        </div>
-
-        <div id="card-project">
-            <div class="card-text">
-                <i class="fas fa-mobile-alt"></i>
-                <h1>App Android Calculatrice</h1>
-                <p>Application Android de calculatrice réalisée avec AndroidStudio et Java</p>
-                <button>Lien GitHub</button>
-            </div>
-        </div>
 
     </div>
 
