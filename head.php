@@ -6,10 +6,8 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/resetstyle.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/hello.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/resume.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/skills.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/projects.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">

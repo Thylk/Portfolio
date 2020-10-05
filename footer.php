@@ -1,11 +1,10 @@
 <footer id="footer">
 
     <div id="footer-container">
-        <h1>Contact</h1>
-        <p><i class="fas fa-envelope"></i> Email: regnault.maxime@gmail.com</p>
-        <p><i class="fab fa-linkedin"></i> Linkedin: www.linkedin.com/in/maxime-regnault-3480b618a/</p>
-        <p><i class="fab fa-github"></i> GitHub: github.com/Thylk</p>
-        <p><i class="fas fa-phone-alt"></i> Mobile: 06 98 26 84 74</p>
+        <a href="tel:+33698268474"><i class="fas fa-mobile-alt"></i></a>
+        <a href="mailto:atelierafacon@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/maxime-regnault-3480b618a/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Thylk"><i class="fab fa-github"></i></a>
     </div>
 
 </footer>

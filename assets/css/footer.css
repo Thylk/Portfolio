@@ -1,18 +1,64 @@
-footer {
+#footer {
+    width: 100%;
     background-color: #343A40;
-    color: whitesmoke;
-    font-size: 1.2em;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    text-align: center;
 }
 #footer-container {
-    padding: 1em;
+    padding: 4em;
 }
-#footer-container h1{
+#footer-container a {
     font-size: 2em;
+    color: whitesmoke;
+    padding: 0.5em;
 }
-#footer-container p {
-    padding: 0.4em;
+.fa-github {
+    color: cyan;
+    border-radius: 50%;
+    padding: 5px;
+    animation: animateBg 4s linear infinite;
+}
+@keyframes animateBg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+/*
+########################
+M E D I A  Q U E R I E S
+########################
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    #footer-container a {
+        font-size: 3em;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+    #footer-container a {
+        font-size: 4em;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }

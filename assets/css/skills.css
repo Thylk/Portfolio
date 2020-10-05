@@ -1,5 +1,33 @@
-#skills {
+#third-div {
+    background-color: #343A40;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+/* #web-browser {
+    border: 5px solid whitesmoke;
+    border-top: 0;
+} */
+#top-web {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+#top-web p {
+    /* width: 600px; */
+    font-size: 1.2em;
+}
+#url-box {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    width: 70%;
+    max-width: 600px;
+    justify-content: space-between;
 }
 #skill-html {
     background-color: lightsalmon;
@@ -32,155 +60,54 @@
     background-color: whitesmoke;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 1920px){
-    #skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    .skills-container {
-        width: 20vw;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img-pic {
-        max-height: 300px;
-        max-width: 300px;
-    }
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-pic {
+    max-height: 135px;
+    max-width: 135px;
+}
+.skills-container {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen and (max-width: 1536px){
-    #skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    .skills-container {
-        width: 20vw;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .img-pic {
-        max-height: 250px;
-        max-width: 250px;
-    }
-}
+/*
+########################
+M E D I A  Q U E R I E S
+########################
+*/
 
-@media screen and (max-width: 1440px){
-    #skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    .skills-container {
-        width: 20vw;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img-pic {
-        max-height: 200px;
-        max-width: 200px;
-    }
-}
-
-@media screen and (max-width: 1366px){
-    #skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    .skills-container {
-        width: 20vw;
-        height: 35vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
     .img-pic {
         max-height: 150px;
         max-width: 150px;
     }
+    .skills-container {
+        width: 200px;
+        height: 200px;
+    }
 }
 
-@media screen and (max-width: 768px){
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
     #skills {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    .skills-container {
-        width: 20vw;
-        height: 20vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img-pic {
-        max-height: 100px;
-        max-width: 100px;
-    }
 }
 
-@media screen and (max-width: 414px){
-    #skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .skills-container {
-        width: 50vw;
-        height: 20vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img-pic {
-        max-height: 100px;
-        max-width: 100px;
-    }
-}
-
-@media screen and (max-width: 375px){
-    #skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .skills-container {
-        width: 50vw;
-        height: 20vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img-pic {
-        max-height: 100px;
-        max-width: 100px;
-    }
-}
-
-@media screen and (max-width: 360px){
-    #skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .skills-container {
-        width: 50vw;
-        height: 20vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .img-pic {
-        max-height: 100px;
-        max-width: 100px;
-    }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }
